@@ -11,8 +11,11 @@ Welcome to the Computer Vision capstone project in the AI Nanodegree program! In
 ![Facial Keypoint Detection][image1]
 
 The project will be broken up into a few main parts in one Python notebook:
+
 __Part 1__ : Investigating OpenCV, pre-processing, and face detection
+
 __Part 2__ : Training a Convolutional Neural Network (CNN) to detect facial keypoints
+
 __Part 3__ : Putting parts 1 and 2 together to identify facial keypoints on any image!
 
 You'll also be given *optional* exercises that allow you to extend this project so that it works on video and allows you to implement fun face filters in real-time!
