@@ -60,7 +60,9 @@ When you are ready to submit your project, collect the following files and compr
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Comments         		| The submission includes comments that describe the functionality of the code.  Every line of code is preceded by a meaningful comment.  1. describing input parameters to OpenCV module functions.  2. function calls  3. explaning thought process in common language	|
+| Comments         		| The submission includes comments that describe the functionality of the code.  Every line or function (chunk of functional code) is preceded by a meaningful comment.  
+
+Comments should generally: 1. Describe input parameters to OpenCV functions.  2. Describe the purpose of function calls.  3. Explain the coder's thought process in common language.	|
 
 #### Step 1:  Add eye detections to our face detection setup
 | Criteria       		|     Meets Specifications	        			            | 
@@ -79,14 +81,14 @@ When you are ready to submit your project, collect the following files and compr
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Blur and edge detect a test image.  | The submission returns an edge detected image that has been blurred properly and with the dictated parameters. |
+| Blur and edge detect a test image.  | The submission returns an edge-detected image that has been blurred then edge-detected using the specified parameters. |
 
 
-#### Step 4: Hiding the identity of an unwilling participant automatically
+#### Step 4: Hiding the identity of a person automatically
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Find and blur the face of an individual in a test image. |  The submission provides code to automatically detect the face of a person in a test image and blur their face to mask their identity.  |
+| Find and blur the face of an individual in a test image. |  The submission shoul provide code to automatically detect the face of a person in a test image then blur their face to mask their identity.  |
 
 
 #### Step 5:  Specify the Network Architecture
@@ -104,7 +106,7 @@ When you are ready to submit your project, collect the following files and compr
 #### Step 7:  Answer a few questions and visualize the Loss
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-|  Answer a few questions about your training and visualize the Loss function.| The submission successfully discusses any potential issues with their training, and addresses the provided questions regarding this.  |
+|  Answer a few questions about your training and visualize the loss function.| The submission successfully discusses any potential issues with their training, and answers all of the provided questions.  |
 
 
 #### Step 8:  Facial Keypoints Detector: complete the pipeline
