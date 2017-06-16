@@ -2,7 +2,8 @@
 
 [image1]: ./images/obamas_with_keypoints.png "Facial Keypoint Detection"
 
-# AIND Term II, Computer Vision Capstone Project: Facial Keypoint Detection and Real-time Filtering
+# AIND Term II, Computer Vision Capstone Project: 
+# Facial Keypoint Detection and Real-time Filtering
 
 ## Project Overview
 
