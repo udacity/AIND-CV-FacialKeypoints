@@ -2,7 +2,7 @@
 
 [image1]: ./images/obamas_with_keypoints.png "Facial Keypoint Detection"
 
-# AIND Term II, Computer Vision Capstone Project: 
+# AIND Term II, Computer Vision Capstone Project 
 # Facial Keypoint Detection and Real-time Filtering
 
 ## Project Overview
@@ -29,7 +29,7 @@ You'll also be given *optional* exercises that allow you to extend this project 
 1. Open the notebook and follow the instructions.
 	
 	```
-		jupyter notebook project_instructions.ipynb
+		jupyter notebook CV_project.ipynb
 	```
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
@@ -43,7 +43,7 @@ Your project will be reviewed by a Udacity reviewer against the Computer Vision 
 ## Project Submission
 
 When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
-- The `project_instructions.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
+- The `CV_project.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
 - An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
 - Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `data/`folder. __
 
