@@ -1,6 +1,50 @@
-# AIND Term II: Computer Vision Course Project
+[//]: # (Image References)
 
-## Rubric items
+[image1]: ./images/obamas_with_keypoints.png "Facial Keypoint Detection"
+
+# AIND Term II, Computer Vision Capstone Project: Facial Keypoint Detection and Real-time Filtering
+
+## Project Overview
+
+Welcome to the Computer Vision capstone project in the AI Nanodegree program! In this project, you’ll combine your knowledge of computer vision techniques and deep learning to build and end-to-end facial keypoint recognition system. Facial keypoints include points around the eyes, nose, and mouth on any face and are used in many applications, from facial tracking to emotion recognition. Your completed code should be able to take in any image containing faces and identify the location of each face and their facial keypoints, as shown below.
+
+![Facial Keypoint Detection][image1]
+
+The project will be broken up into a few main parts in one Python notebook:
+__Part 1__ : Investigating OpenCV, pre-processing, and face detection
+__Part 2__ : Training a Convolutional Neural Network (CNN) to detect facial keypoints
+__Part 3__ : Putting parts 1 and 2 together to identify facial keypoints on any image!
+
+You'll also be given *optional* exercises that allow you to extend this project so that it works on video and allows you to implement fun face filters in real-time!
+
+
+## Project Instructions
+
+### Instructions
+
+1. Open the notebook and follow the instructions.
+	
+	```
+		jupyter notebook project_instructions.ipynb
+	```
+
+__NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
+
+
+## Evaluation
+
+Your project will be reviewed by a Udacity reviewer against the Computer Vision project [rubric](#rubric).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
+
+
+## Project Submission
+
+When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
+- The `project_instructions.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
+- An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
+- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `data/`folder. __
+
+<a id='rubric'></a>
+## Project Rubric
 
 #### Files Submitted
 
