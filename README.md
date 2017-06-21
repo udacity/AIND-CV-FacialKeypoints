@@ -54,7 +54,7 @@ When you are ready to submit your project, collect the following files and compr
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Submission Files      |  CV_project.ipynb--> all completed python functions requested in the main notebook CV_project.ipynb (TODO items) should be completed		|
+| Submission Files      |  CV_project.ipynb--> all completed python functions requested in the main notebook CV_project.ipynb (TODO items) should be completed.		|
 
 
 #### Step 1:  Add eye detections to the face detection setup
@@ -74,14 +74,14 @@ When you are ready to submit your project, collect the following files and compr
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Blur and edge detect a test image.  | The submission returns an edge-detected image that has been blurred then edge-detected using the specified parameters. |
+| Blur and edge detect a test image.  | The submission returns an edge-detected image that has first been blurred, then edge-detected, using the specified parameters. |
 
 
 #### Step 4: Automatically hide the identity of a person (blur a face)
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Find and blur the face of an individual in a test image. |  The submission shoul provide code to automatically detect the face of a person in a test image then blur their face to mask their identity.  |
+| Find and blur the face of an individual in a test image. |  The submission should provide code to automatically detect the face of a person in a test image, then blur their face to mask their identity.  |
 
 
 #### Step 5:  Specify the network architecture
