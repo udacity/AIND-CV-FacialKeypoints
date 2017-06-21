@@ -26,7 +26,11 @@ You'll also be given *optional* exercises that allow you to extend this project 
 
 ### Instructions
 
-1. Open the notebook and follow the instructions.
+1. Look in this repo in the subdirectory `data/`; in this folder, you'll find zipped training data called `test.zip`. Unzip this file and place it in this same location. You should then have a file called `training.csv` in the data folder. You may delete the zip file.
+
+2. Download the [Kaggle training dataset](https://www.kaggle.com/c/facial-keypoints-detection/data) called `training.zip`.  Unzip the file and place it in the same `data/` subdirectory as the test data. You should now have two files in there including `training.csv`. 
+
+3. Open the notebook and follow the instructions.
 	
 	```
 		jupyter notebook CV_project.ipynb
