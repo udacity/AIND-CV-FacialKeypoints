@@ -10,11 +10,12 @@ from sklearn.utils import shuffle
 def load_data(test=False):
     """
     Loads data from FTEST if *test* is True, otherwise from FTRAIN.
+    Important that the files are in a `data` directory
     """  
     FTRAIN = 'data/training.csv'
     FTEST = 'data/test.csv'
     fname = FTEST if test else FTRAIN
-    df = read_csv(os.path.expanduser(fname))  # load pandas dataframe
+    df = read_csv(os.path.expanduser(fname))  # load dataframes
 
     # The Image column has pixel values separated by space; convert
     # the values to numpy arrays:
