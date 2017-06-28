@@ -24,17 +24,81 @@ You'll also be given *optional* exercises that allow you to extend this project 
 
 ## Project Instructions
 
-### Instructions
+### Environment
 
-1. Look in this repo in the subdirectory `data/`; in this folder, you'll find zipped training data called `test.zip`. Unzip this file and place it in this same location. You should then have a file called `training.csv` in the data folder. You may delete the zip file.
+1. Clone the repository, and navigate to the downloaded folder.
+```
+git clone https://github.com/udacity/AIND-CV-FacialKeypoints.git
+cd AIND-CV-FacialKeypoints
+```
 
-2. Download the [Kaggle training dataset](https://www.kaggle.com/c/facial-keypoints-detection/data) called `training.zip`.  Unzip the file and place it in the same `data/` subdirectory as the test data. You should now have two files in there including `training.csv`. 
+2. Create (and activate) a new environment with Python 3.5 and the `numpy` package.
 
-3. Open the notebook and follow the instructions.
-	
+	- __Linux__ or __Mac__: 
 	```
-		jupyter notebook CV_project.ipynb
+	conda create --name aind-cv python=3.5 numpy
+	source activate aind-cv
 	```
+	- __Windows__: 
+	```
+	conda create --name aind-cv python=3.5 numpy scipy
+	activate aind-cv
+	```
+
+3. Install TensorFlow.
+```
+pip install tensorflow-gpu
+```
+
+4. Install a few required pip packages (including OpenCV).
+```
+pip install -r requirements.txt
+```
+
+5. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
+	- __Linux__ or __Mac__: 
+	```
+	KERAS_BACKEND=tensorflow python -c "from keras import backend"
+	```
+	- __Windows__: 
+	```
+	set KERAS_BACKEND=tensorflow
+	python -c "from keras import backend"
+	```
+
+### Data
+
+All of the data you'll need to train a neural network is in the AIND-CV-FacialKeypoints repo, in the subdirectory `data`. In this folder are a zipped training and test set of data.
+
+1. Navigate to the data directory
+```
+cd data
+```
+
+2. Unzip the training and test data (in that same location). If you are in Windows, you can download this data and unzip it by double-clicking the zipped files. In Mac, you can use the terminal commands below.
+```
+unzip training.zip
+unzip test.zip
+```
+
+You should be left with two `.csv` files of the same name. You may delete the zipped files.
+
+*Troubleshooting*: If you are having trouble unzipping this data, you can download that same training and test data on [Kaggle](https://www.kaggle.com/c/facial-keypoints-detection/data).
+
+Now, with that data unzipped, you should have everything you need!
+
+## Notebook
+
+1. Navigate back to the repo. (Also your source environment should still be activated at this point)
+```shell
+cd
+cd AIND-CV-FacialKeypoints
+```
+
+2. Open the notebook and follow the instructions.
+```shell
+jupyter notebook CV_project.ipynb
+```
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
@@ -49,7 +113,7 @@ Your project will be reviewed by a Udacity reviewer against the Computer Vision 
 When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
 - The `CV_project.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
 - An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
-- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `data/` folder.__
+- Any additional images used for the project that were not supplied to you for the project. __Please do not include the project data sets in the `data` subdirectory.__ These are big datasets, and you will only be evaluated on your code implementation.
 
 <a id='rubric'></a>
 ## Project Rubric
@@ -58,7 +122,7 @@ When you are ready to submit your project, collect the following files and compr
 
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
-| Submission Files      |  CV_project.ipynb--> all completed python functions requested in the main notebook CV_project.ipynb (TODO items) should be completed.		|
+| Submission Files      |  `CV_project.ipynb`--> all completed python functions requested in the main notebook CV_project.ipynb (TODO items) should be completed.		|
 
 
 #### Step 1:  Add eye detections to the face detection setup
