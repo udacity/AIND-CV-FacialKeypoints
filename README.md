@@ -24,6 +24,8 @@ You'll also be given *optional* exercises that allow you to extend this project 
 
 ## Project Instructions
 
+All of the starting code and resources you''ll need to compete this project are in a Github repo! Before you can get stared coding, you'll have to make sure that you have all the libraries and dependencies required to support this project.
+
 ### Environment
 
 1. Clone the repository, and navigate to the downloaded folder.
