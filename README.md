@@ -47,14 +47,14 @@ cd AIND-CV-FacialKeypoints
 	activate aind-cv
 	```
 
-3. Install TensorFlow.
-```
-pip install tensorflow-gpu
+3. Install/Update TensorFlow.
+ ```
+pip install tensorflow-gpu -U
 ```
 
-4. Install a few required pip packages (including OpenCV).
-```
-pip install -r requirements.txt
+4. Install/Update Keras.
+ ```
+pip install keras -U
 ```
 
 5. Switch [Keras backend](https://keras.io/backend/) to TensorFlow.
@@ -67,6 +67,12 @@ pip install -r requirements.txt
 	set KERAS_BACKEND=tensorflow
 	python -c "from keras import backend"
 	```
+
+6. Install a few required pip packages (including OpenCV).
+```
+pip install -r requirements.txt
+```
+
 
 ### Data
 
