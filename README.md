@@ -52,7 +52,7 @@ cd AIND-CV-FacialKeypoints
 	```
 	pip install tensorflow-gpu -U
 	```
-	- Option 2: __To install TensorFlow with CPU support only__,
+	- Option 2: __To install TensorFlow with CPU support only__:
 	```
 	pip install tensorflow -U
 	```
