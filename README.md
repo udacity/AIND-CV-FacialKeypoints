@@ -50,11 +50,11 @@ cd AIND-CV-FacialKeypoints
 3. Install/Update TensorFlow (for this project, you may use CPU only).
 	- Option 1: __To install TensorFlow with GPU support__, follow [the guide](https://www.tensorflow.org/install/) to install the necessary NVIDIA software on your system.  If you are using the Udacity AMI, you can skip this step and only need to install the `tensorflow-gpu` package:
 	```
-	pip install tensorflow-gpu -U
+	pip install tensorflow-gpu==1.1.0
 	```
 	- Option 2: __To install TensorFlow with CPU support only__:
 	```
-	pip install tensorflow -U
+	pip install tensorflow==1.1.0
 	```
 
 4. Install/Update Keras.
